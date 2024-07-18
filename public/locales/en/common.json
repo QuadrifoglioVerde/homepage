@@ -905,7 +905,7 @@
         "cameras": "Cameras",
         "uptime": "Uptime",
         "version": "Version"
-    }
+    },
     "traccar": {
         "online": "Online",
         "moving": "Moving",
