@@ -116,6 +116,7 @@ import whatsupdocker from "./whatsupdocker/widget";
 import xteve from "./xteve/widget";
 import urbackup from "./urbackup/widget";
 import romm from "./romm/widget";
+import traccar from "./traccar/widget";
 
 const widgets = {
   adguard,
@@ -225,6 +226,7 @@ const widgets = {
   tandoor,
   tautulli,
   tdarr,
+  traccar,
   traefik,
   transmission,
   tubearchivist,
@@ -238,7 +240,7 @@ const widgets = {
   watchtower,
   wgeasy,
   whatsupdocker,
-  xteve,
+  xteve
 };
 
 export default widgets;
