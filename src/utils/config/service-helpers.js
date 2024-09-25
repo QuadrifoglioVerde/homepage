@@ -485,7 +485,7 @@ export function cleanServiceGroups(groups) {
           range,
 
           // traccar
-          zone
+          zone,
         } = cleanedService.widget;
 
         let fieldsList = fields;
