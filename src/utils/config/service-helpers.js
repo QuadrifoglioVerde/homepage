@@ -483,6 +483,9 @@ export function cleanServiceGroups(groups) {
 
           // technitium
           range,
+
+          // traccar
+          zone
         } = cleanedService.widget;
 
         let fieldsList = fields;
@@ -632,6 +635,9 @@ export function cleanServiceGroups(groups) {
         }
         if (type === "lubelogger") {
           if (vehicleID !== undefined) cleanedService.widget.vehicleID = vehicleID;
+        }
+        if (type === "traccar") {
+          if (zone) cleanedService.widget.zone = zone;
         }
       }
 
