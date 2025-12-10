@@ -1129,5 +1129,10 @@
       "songs": "Songs",
       "time":  "Time",
       "artists": "Artists"
+    },
+    "traccar": {
+        "online": "Online",
+        "moving": "Moving",
+        "inzone": "In {{value}}"
     }
 }

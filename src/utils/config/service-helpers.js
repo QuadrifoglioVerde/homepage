@@ -424,6 +424,9 @@ export function cleanServiceGroups(groups) {
 
           // grafana
           alerts,
+
+          // traccar
+          zone,
         } = widgetData;
 
         let fieldsList = fields;
@@ -656,6 +659,9 @@ export function cleanServiceGroups(groups) {
           if (interval !== undefined) {
             widget.interval = interval;
           }
+        }
+        if (type === "traccar") {
+          if (zone) widget.zone = zone;
         }
         return widget;
       });
